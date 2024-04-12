@@ -1,0 +1,100 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #CD5C5C;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 200px auto;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 40px;
+    align-items: center;
+  }
+
+  .heading{
+    text-align: center;
+    font-family:cursive;
+    font-size: 30px;
+    color: blue;
+  }
+  
+  .donation-button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .donation-button:hover {
+    background-color: #0056b3;
+  }
+
+  .search-container {
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    margin: 50px auto;
+  }
+
+  .navbar {
+    background-color: red;
+    padding: 20px 30px;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-logo a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar-profile {
+    margin-left: auto; 
+    font-size: 20px;
+  }
+  
+  .navbar-profile a {
+    color: white;
+    text-decoration: none;
+  }
+  input[type="text"] {
+  padding: 10px;
+  width: 100%;
+  border: 2px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
